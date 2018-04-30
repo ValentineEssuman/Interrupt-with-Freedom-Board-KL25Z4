@@ -1,0 +1,8 @@
+#ifndef THREELEDINTERRUPT_H
+#define THREELEDINTERRUPT_H
+
+void Init_Peripherals(void);
+void Delay_millisec(void);
+void PORTD_IRQHandler(void);
+
+#endif
